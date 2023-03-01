@@ -64,12 +64,14 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
     color: var(--primary-text-color)
 }
 
 .position-text {
     font-size: 16px;
     letter-spacing: 0.02em;
+    text-align: center;
     color: var(--secondary-text-color)
 }
 
@@ -123,6 +125,9 @@ body {
 
 /*================button PORTFOLIO================*/
 .btn-menu {
+    font-family: var(--primary--font);
+    font-size: 16px;
+    line-height: 1.5;
     font-family: inherit;
     font-weight: 500;
     letter-spacing: 0.04em;
@@ -133,6 +138,26 @@ body {
 
 .btn-menu:hover,
 .btn-menu:focus {
+    color: var(--btn-menu);
+    background: var(--background-color)
+}
+
+.btn-menu-portfolio {
+    font-family: var(--primary--font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    color: var(--logo-color);
+    background-color: #F4F4FD;
+    ;
+}
+
+.btn-menu-portfolio:hover,
+.btn-menu-portfolio:focus {
     color: var(--btn-menu);
     background: var(--background-color)
 }
